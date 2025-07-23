@@ -1,0 +1,86 @@
+body {
+  font-family: monospace;
+  cursor: pointer;
+}
+
+
+.banner-section {
+    background:url("/img/frozen-alien-world.jpg") center center / cover no-repeat
+}
+
+#about-me {
+    background:url("/img/about-me-bg.jpg") center center / cover no-repeat
+}
+
+#projects {
+    background:url("/img/03092022_rorozoa_10.jpg") center center / cover no-repeat
+}
+
+.skill-bg {
+  background: url("/img/5440177.jpg") center center / cover no-repeat;
+}
+
+#about-me::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00000062;
+}
+
+section.banner-section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00000062;
+}
+
+section.skill-bg::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00000062;
+}
+.banner-text h1,div {
+  z-index: 100;
+  position: relative;
+  strong {
+    font-size: 25px;
+    font-weight: 500;
+  }
+}
+
+.panel {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: white;
+}
+
+/* Add this to your main CSS file or inside a <style> tag */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* How high it floats */
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+@media(max-width:426px) {
+  img.float-animation {
+    width: 160px;
+  }
+
+  img.rounded-2xl.shadow-xl.w-64.h-64.object-cover.astronaut-pic {margin-top: 150px;width: 170px;height: 170px;}
+
+  
+}
