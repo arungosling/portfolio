@@ -23,7 +23,7 @@
                 :key="i"
                 class="card z-10 absolute left-1/2 top-1/2 w-36 sm:w-52 h-36 sm:h-52 rounded-lg overflow-hidden shadow-lg transform"
               >
-                <img
+                <NuxtImg 
                   :src="card.img"
                   alt="Card Image"
                   class="w-full h-full object-cover"

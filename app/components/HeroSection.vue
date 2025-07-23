@@ -20,9 +20,9 @@
         v-gsap.magnetic.weaker
         class="astronaut-div place-items-center"
       >
-        <img
+        <NuxtImg 
           class="float-animation"
-          src="/img/vecteezy_stunning-vintage-astronaut-working-on-laptop-in-space-genuine_56752476-min.png"
+          src="/img/vecteezy_sought-after-avant-garde-a-lone-astronaut-floating-in-space_62246583.png"
           width="250"
           alt="Astronaut with Laptop"
         />
@@ -33,7 +33,7 @@
         v-gsap.magnetic.weaker
         class="astronaut-div"
       >
-        <img
+        <NuxtImg 
           class="float-animation"
           src="/img/vecteezy_whimsical-exquisite-a-lone-astronaut-floating-in-space_62244253-min.png"
           width="250"

@@ -45,7 +45,7 @@
     <div>
     <!-- Alien -->
      <a href="mailto:your.arungosling@gmail.com" target="_blank" title="hi 👽">
-        <img src="/img/baby-alien.png" class="fixed alien-img bottom-0 left-4 z-50" width="100" alt="" />
+        <NuxtImg  src="/img/baby-alien.png" class="fixed alien-img bottom-0 left-4 z-50" width="100" alt="" />
      </a>
 
     <!-- Talking Bubble -->

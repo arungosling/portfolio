@@ -9,7 +9,7 @@
       <div class="flex justify-center">
         <img
           ref="reactBox"
-          src="/img/about-me-astronaut.png"
+          src="https://ik.imagekit.io/wax4lboi9/img/vecteezy_elegant-artistic-astronaut-on-asteroid-digital-render-of_56404968.png?updatedAt=1753295630944"
           alt="Arun Pandi"
           class="rounded-2xl shadow-xl w-64 h-64 object-cover astronaut-pic"
         />
